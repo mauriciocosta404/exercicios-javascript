@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+.head{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+form input[type="text"]{
+    border: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    margin: 5px;
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+}
+button{
+    background-color: transparent;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+}
