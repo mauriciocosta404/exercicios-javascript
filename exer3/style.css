@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color:#242526;
+    color: white;
+}
+h1{
+    margin: 5px;
+}
+input[type="text"]{
+    height:40px ;
+    width: 100%;
+    padding-left: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+}
+
+.login_input_border{
+    width: 100%;
+    height: 1px;
+    background-color:white;
+    
+}
+button{
+    width: 100%;
+    background-color: rgb(0, 195, 255);
+    padding: 15px 0px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+.user-data p{
+    margin-bottom: 5px;
+}
